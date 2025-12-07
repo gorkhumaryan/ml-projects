@@ -1,13 +1,8 @@
 import numpy as np
-import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
-import sklearn
 import tensorflow as tf
 import sklearn as sk
-from PIL import Image
 import os
-
 from tensorflow.python.keras.callbacks import EarlyStopping
 
 def main():
