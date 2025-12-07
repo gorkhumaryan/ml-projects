@@ -6,7 +6,7 @@ import os
 from tensorflow.python.keras.callbacks import EarlyStopping
 
 def main():
-    data_dir = r"C:\docs\processed_data"
+    data_dir = "dataset"
     
     label_map = {
         "angry": 0,
