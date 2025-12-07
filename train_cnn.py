@@ -1,7 +1,6 @@
-import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import sklearn as sk
+import sklearn
 import os
 from tensorflow.python.keras.callbacks import EarlyStopping
 
@@ -136,6 +135,6 @@ def main():
 
     model.save("models/saved_model.keras")
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
 
