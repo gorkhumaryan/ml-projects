@@ -139,7 +139,7 @@ def main():
 
 
 
-    model.save("saved_model.keras")
+    model.save("models/saved_model.keras")
 
 if __name__ = '__main__':
     main()
